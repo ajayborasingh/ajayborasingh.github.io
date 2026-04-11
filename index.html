@@ -224,7 +224,7 @@ section {
 
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 1px;
   background: var(--border);
   border: 1px solid var(--border);
@@ -511,7 +511,7 @@ footer {
   <div class="hero-name">Ajay<br><span>Singh Bora</span></div>
   <div class="hero-role">Turning raw data into business intelligence using SQL, Power BI & Excel. 2+ years driving decisions in retail analytics.</div>
   <div class="hero-actions">
-    <a href="https://ajayborasingh.github.io/ajay_singh_bora_cv.pdf" download="ajay_singh_bora_cv.pdf" class="btn-primary">↓ Download CV</a>
+    <a href="ajay_singh_bora_cv.pdf" download="ajay_singh_bora_cv.pdf" class="btn-primary">↓ Download CV</a>
   </div>
 </div>
 
@@ -559,6 +559,7 @@ footer {
     <div class="skill-cell"><span class="skill-icon">📊</span><div class="skill-name">Power BI</div></div>
     <div class="skill-cell"><span class="skill-icon">📈</span><div class="skill-name">Excel</div></div>
     <div class="skill-cell"><span class="skill-icon">📉</span><div class="skill-name">Tableau</div></div>
+    <div class="skill-cell"><span class="skill-icon">⚙️</span><div class="skill-name">Alteryx</div></div>
   </div>
 </section>
 
@@ -622,6 +623,24 @@ footer {
       <a href="https://github.com/ajayborasingh/Data-Projects/tree/main/Excel%20Spotify%20Project" target="_blank" class="btn-primary">View Project</a>
     </div>
 
+    <div class="project-card reveal">
+      <div>
+        <div class="project-tags">
+          <span class="project-tag-pill">Alteryx</span>
+          <span class="project-tag-pill">Tableau</span>
+          <span class="project-tag-pill">ETL Pipeline</span>
+          <span class="project-tag-pill">E-Commerce</span>
+        </div>
+        <div class="project-name">Olist E-Commerce Performance Analysis</div>
+        <div class="project-desc">Built an automated end-to-end analytics pipeline using Alteryx to blend 7 source files (100,000+ orders) into two clean outputs in under 4 seconds. Visualised results across two interactive Tableau dashboards covering geographic revenue distribution, category performance, average order value, and freight margin risk. Key findings: health & beauty leads revenue at R$1.27M; computers command the highest AOV at R$1,078; home comfort categories carry 51% freight-to-revenue ratios — flagging significant margin risk.</div>
+        <div style="display:flex; gap:12px; margin-top:16px; flex-wrap:wrap;">
+          <a href="https://public.tableau.com/app/profile/ajay.singh7629/viz/OlistSalesDashboard_17759379439950/Dashboard1" target="_blank" style="font-family:'JetBrains Mono',monospace; font-size:0.72rem; color:var(--accent); letter-spacing:0.08em; text-transform:uppercase; text-decoration:none; border:1px solid rgba(0,229,195,0.3); padding:6px 14px; transition:all 0.25s;" onmouseover="this.style.background='rgba(0,229,195,0.08)'" onmouseout="this.style.background='transparent'">↗ Dashboard 1</a>
+          <a href="https://public.tableau.com/app/profile/ajay.singh7629/viz/OlistSalesDashboard_17759379439950/Dashboard2" target="_blank" style="font-family:'JetBrains Mono',monospace; font-size:0.72rem; color:var(--accent); letter-spacing:0.08em; text-transform:uppercase; text-decoration:none; border:1px solid rgba(0,229,195,0.3); padding:6px 14px; transition:all 0.25s;" onmouseover="this.style.background='rgba(0,229,195,0.08)'" onmouseout="this.style.background='transparent'">↗ Dashboard 2</a>
+        </div>
+      </div>
+      <a href="https://github.com/ajayborasingh/Data-Projects/tree/main/olist-ecommerce-alteryx-tableau-analysis" target="_blank" class="btn-primary">View Project</a>
+    </div>
+
   </div>
 </section>
 
@@ -665,9 +684,9 @@ footer {
           <span class="contact-item-icon">PHONE</span>
           +91 7508603505
         </a>
-        <a href="mailto:ajayborasingh@gmail.com" class="contact-item">
+        <a href="/cdn-cgi/l/email-protection#fa9b909b839895889b8993949d92ba9d979b9396d4999597" class="contact-item">
           <span class="contact-item-icon">EMAIL</span>
-          ajayborasingh@gmail.com
+          <span class="__cf_email__" data-cfemail="a4c5cec5ddc6cbd6c5d7cdcac3cce4c3c9c5cdc88ac7cbc9">[email&#160;protected]</span>
         </a>
         <a href="https://www.linkedin.com/in/ajaybora" target="_blank" rel="noopener noreferrer" class="contact-item">
           <span class="contact-item-icon">LI</span>
@@ -692,20 +711,10 @@ footer {
   <div class="footer-links">
     <a href="https://www.linkedin.com/in/ajaybora" target="_blank" rel="noopener noreferrer">LinkedIn</a>
     <a href="https://github.com/ajayborasingh" target="_blank">GitHub</a>
-    <a href="mailto:ajayborasingh@gmail.com">Email</a>
+    <a href="/cdn-cgi/l/email-protection#9dfcf7fce4fff2effceef4f3faf5ddfaf0fcf4f1b3fef2f0">Email</a>
   </div>
 </footer>
 
-<script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
 document.body.classList.add('js-animate');
-const reveals = document.querySelectorAll('.reveal');
-const observer = new IntersectionObserver((entries) => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) entry.target.classList.add('visible');
-  });
-}, { threshold: 0.1 });
-reveals.forEach(el => observer.observe(el));
-</script>
-
-</body>
-</html>
+const reveals = documen
